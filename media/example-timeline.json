@@ -13,13 +13,13 @@
     "events": [
       {
         "media": {
-          "url": "https://digital.lib.uidaho.edu/digital/iiif/spec_cs/99/full/pct:12/0/default.jpg",
+          "url": "https://s21.ax1x.com/2024/12/11/pAH4Jw8.jpg",
           "caption": "Selway National Forest (Idaho), Three Forks Cabin",
           "link": "https://www.lib.uidaho.edu/digital/shattuck/items/shattuck99.html",
           "credit": "C.H. Shattuck Lantern Slides, 1904-1910"
         },
         "start_date": { 
-          "year": "1904"
+          "year": "1989"
         },
         "text": {
           "headline": "Selway National Forest (Idaho), Three Forks Cabin",
@@ -27,7 +27,7 @@
         }
       },{
         "media": {
-          "url": "https://digital.lib.uidaho.edu/digital/iiif/spec_cs/177/full/pct:12/0/default.jpg",
+          "url": "https://s21.ax1x.com/2024/12/11/pAH4Gef.jpg",
           "caption": "Idaho football team, University of Idaho, 1908",
           "link": "https://www.lib.uidaho.edu/digital/shattuck/items/shattuck177.html",
           "credit": "C.H. Shattuck Lantern Slides, 1904-1910"
@@ -41,16 +41,31 @@
         }
       },{
         "media": {
-          "url": "https://digital.lib.uidaho.edu/digital/iiif/spec_cs/43/full/pct:12/0/default.jpg",
-          "caption": "Packers Meadows (Idaho), Fire 1910",
-          "link": "https://www.lib.uidaho.edu/digital/shattuck/items/shattuck43.html",
+          "url": "https://s21.ax1x.com/2024/12/12/pAbMa4I.jpg",
+          "caption": "北海宾馆-女队",
+          "link": "",
           "credit": "C.H. Shattuck Lantern Slides, 1904-1910"
         },
         "start_date": { 
-          "year": "1910"
+          "year": "1989"
         },
         "text": {
-          "headline": "Packers Meadows (Idaho), Fire 1910",
+          "headline": "北海宾馆-女队",
+          "text": "Packing up to go to fire, Packers Meadows, Idaho"
+        }
+      },
+      {
+        "media": {
+          "url": "https://s21.ax1x.com/2024/12/12/pAbMh80.jpg",
+          "caption": "全队1988",
+          "link": "",
+          "credit": "C.H. Shattuck Lantern Slides, 1904-1910"
+        },
+        "start_date": { 
+          "year": "1988"
+        },
+        "text": {
+          "headline": "全队1988",
           "text": "Packing up to go to fire, Packers Meadows, Idaho"
         }
       }
