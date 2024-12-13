@@ -1,189 +1,33 @@
 <!doctype html>
-<html lang="en" class="h-100">
-    <head>
-        <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="TimelineJS Test">
+ 
+    <title>重庆造纸厂子弟中学毽球队</title>
+    <meta name="description" content="毽球队，重庆造纸厂，子弟中学，陈天喜，全国冠军" />
+    <meta name="Keywords" content="毽球，重庆造纸厂，子弟中学，陈天喜，全国冠军"/>
+    <link rel="stylesheet" href="https://cdn.knightlab.com/libs/timeline3/latest/css/timeline.css">
 
-<title>Example Timeline | timelinejs-template</title>
-<meta name="description" content="basic template for self-hosted TimelineJS">
-<meta name="author" content="evan will">
-<!-- built with timelinejs-template https://github.com/thecdil/timelinejs-template -->
-<meta name="generator" content="thecdil/timelinejs-template">
-<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
-
-<link rel="stylesheet" href="/assets/lib/bootstrap.min.css">
-<link rel="stylesheet" href="/assets/lib/timeline3/css/timeline.css">
-<link rel="stylesheet" href="/assets/css/main.css" type="text/css">
-
-
-<!-- Analytics -->
-
-<!-- paste analytics code here or set google-analytics-id in config.yml --> 
-
-<!-- Last build date: 2023-06-20 -->
-    </head>
-    <body class="d-flex flex-column h-100">
-        <div id="skip-to-content"><a href="#maincontent">Skip to main content</a></div>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <div class="container">
-        <a class="navbar-brand" href="/">timelinejs-template</a>
-
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarContent">
-            <ul class="navbar-nav mr-auto">                
-                <li class="nav-item">
-                <a class="nav-link" href="/timelinejs-template/example.html">Example</a>
-                </li>
-                
-                <li class="nav-item">
-                <a class="nav-link" href="/timelinejs-template/about.html">About</a>
-                </li>
-                
-            </ul>
-            
-        </div>
-    </div>
-</nav>
-        <main id="maincontent" role="main" aria-label="Content" class="mb-4 flex-shrink-0">
-        <div class="container my-3">
-    <h1>Example Timeline</h1>
+    <script src="https://cdn.knightlab.com/libs/timeline3/latest/js/timeline.js"></script>
+     <script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-3.5.1.min.js" charset="utf-8"></script>
+  </head>
+  <body>
     
-
-    <div class="my-4"><div id="timeline-embed" style="height: 600px" class="w-100"></div></div>
-</div>
-        
-        </main>
-        <footer class="mt-auto border-top bg-light">
-    <div class="container my-4 ">
-        <p><a href="/">timelinejs-template</a> | basic template for self-hosted TimelineJS, evan will 2020</p>
-    </div>
-</footer>
-        <!-- jquery and bootstrap js -->
-<script src="/assets/lib/jquery-3.5.1.min.js" ></script>
-<script src="/assets/lib/bootstrap.bundle.min.js"></script>
-<!-- other js -->
-<script src="/assets/lib/timeline3/js/timeline-min.js"></script>
-<script>
-/* add timeline events to json style object */var timelineEvents = {
+    <div id='timeline-embed' style="width: 100%; height: 600px"></div>
+   
+<script type="text/javascript">
     
-    /* add title slide */
-    "title": {
-        "media": {
-            
-            "credit": "Knightlab TimelineJS\n",
-            "url": "https://knightlab.northwestern.edu/assets/logo-knightlab-stacked-dark.png"
-        },
-        "text": {
-            "headline": "TimelineJS Template Example\n",
-            "text": "<a href=\"https://github.com/thecdil/timelinejs-template\">timelinejs-template</a> is basic Jekyll template for creating self-hosted <a href=\"https://timeline.knightlab.com/\">TimelineJS</a> on GitHub Pages.\n"
+        var duOptions = {
+            script_path: 'https://cdn.knightlab.com/libs/timeline3/latest/js/timeline.js',
+            language: 'zh-cn', //简体中文 
+            font: 'amatic-andika'
         }
-    },"events": [
-        {
-            "media": {
-                // Media,Media Credit,Media Caption,Media Thumbnail
-                "caption": "\n",
-                "credit": "<a href=\"https://www.lib.uidaho.edu/digital/postcards/\">Northwest Historical Postcards Collection</a>, PG 9, University of Idaho Library Special Collections and Archives\n",
-                
-                "url": "/timelinejs-template/media/demo_001.jpg"
-            },
-            "text": {
-                //Headline,Text
-                "headline": "Administration Building, University of Idaho\n",
-                "text": "This example timeline features media items hosted in the GitHub project repository.\n"
-            },
                   
-            "start_date": { 
-                // Month,Day,Year
-                "year": "1910"
-            }
-        },
-        {
-            "media": {
-                // Media,Media Credit,Media Caption,Media Thumbnail
-                "caption": "\n",
-                "credit": "<a href=\"https://www.lib.uidaho.edu/digital/postcards/\">Northwest Historical Postcards Collection</a>, PG 107, University of Idaho Library Special Collections and Archives\n",
-                
-                "url": "/timelinejs-template/media/demo_002.pdf"
-            },
-            "text": {
-                //Headline,Text
-                "headline": "Spokane County Court House, Spokane, Washington\n",
-                "text": "Example PDF item. Postcard postmarked 9/8/1912, Spokane, WA, Destination San Francisco, CA.\n"
-            },
-            "start_date": { 
-                // Month,Day,Year
-                "month": "9",
-                "day": "8",
-                "year": "1912"
-            }
-        },
-        {
-            "media": {
-                // Media,Media Credit,Media Caption,Media Thumbnail
-                "caption": "\n",
-                "credit": "<a href=\"https://www.lib.uidaho.edu/digital/vandalvideo/\">Vandal Video Collection</a>, Digital Initiatives, University of Idaho Library\n",
-                
-                "url": "https://youtu.be/CVXQ3X6Q8oU"
-            },
-            "text": {
-                //Headline,Text
-                "headline": "University of Idaho vs. University of Southern California (Football)\n",
-                "text": "Example YouTube item. Football game at Neale Stadium in Moscow, ID. Score: 7 - 51 (L).\n"
-            },
-            "start_date": { 
-                // Time
-                "hour": "14", "minute": "30",// Month,Day,Year
-                "month": "10",
-                "day": "30",
-                "year": "1925"
-            }
-        },
-        {
-            "media": {
-                // Media,Media Credit,Media Caption,Media Thumbnail
-                "caption": "\n",
-                "credit": "<a href=\"https://www.lib.uidaho.edu/digital/psychiana/about.html\">Psychiana Digital Collection</a>, Digital Initiatives, University of Idaho Library\n",
-                
-                "url": "/media/demo_003.mp3"
-            },
-            "text": {
-                //Headline,Text
-                "headline": "Good News - Power\n",
-                "text": "Example MP3 audio item. A radio program episode from the ‘mail order religion’ Psychiana.\n"
-            },
-            "start_date": { 
-                // Month,Day,Year  
-                "year": "1947"
-            }
-        }
-        
-    ]
-};
+        var timelineData = '/_data/custom.json';
 
-/* init timeline */
-var timelineOptions = {"hash_bookmark":true};
-timeline = new TL.Timeline("timeline-embed", timelineEvents, timelineOptions);
+        window.timeline = new TL.Timeline('timeline-embed', timelineData, duOptions);
 </script>
-
-<script>
-    // When the user scrolls down from the top of the document, show the button
-    window.onscroll = function () {
-        if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
-            document.getElementById("scroll-to-top").style.display = "block";
-        } else {
-            document.getElementById("scroll-to-top").style.display = "none";
-        }
-    }
-    // scroll to top function
-    function scrollToTop() {
-        $('html, body').animate({scrollTop: 0}, 750);
-    }
-</script>
-<button id="scroll-to-top" type="button" class="btn btn-link btn-lg" onclick="scrollToTop();" title="Back to Top" aria-label="Back to Top">
-    <span class="fas fa-angle-double-up"></span>
-</button>
-    </body>
-</html>
+  </body>
+<html>
