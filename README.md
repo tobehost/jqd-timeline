@@ -1,27 +1,21 @@
-# timelinejs-template
+# timelinejs-适合讲故事的JavaScript库
 
-[timelinejs-template](https://github.com/thecdil/timelinejs-template) is a basic Jekyll template for creating self-hosted [TimelineJS](https://timeline.knightlab.com/) on GitHub Pages.
-It is compatible with existing timelines created in Google Sheets following the TimelineJS template or can be used with TimelineJS formatted JSON files.
+[timelinejs3](https://cdn.knightlab.com/libs/timeline3/latest/js/timeline.js) 初步学习，目前实现了本地调用Json文件来实现数据存储及调用。
 
-See [docs/timeline.md](https://github.com/thecdil/timelinejs-template/blob/main/docs/timeline.md) to get started!
+#### 下一步实现：
+> 使用飞书表格保存数据以及实现后台修改。
+> 使用`Supabase`的数据库实现数据保存与调用。
+> 使用`Flask`实现一个中台管理数据。
 
-Demo: <https://thecdil.github.io/timelinejs-template/>
 
-*Note:* since the template implements self hosted TimelineJS3, please explore [TimelineJS](https://timeline.knightlab.com/) for more examples, data format documentation, and advanced features.
+## 本网站要实现的目标
 
-## Why timelinejs-template?
+### 网站功能
 
-[TimelineJS](https://timeline.knightlab.com/) is a very popular open-source project to create visual timelines that can be embedded on a webpage.
-Their "authoring tool" provides an easy way to create and publish a timeline embed using Google Sheets.
-This is great for getting started with minimal setup and no overhead.
+1. 第一步实现展示功能：毽球队曾经创造的历史；图片及文字说明
+2. 第二步是实现数据的修改功能，让登陆的人员可以自由修改或添加数据
+3. 第三步实现论坛功能，实现交流。同时侧重网站的宣传与毽球俱乐部ID的打造
+4. 第四步实现会员功能，会员所能拥有的功能，配合自媒体矩阵加强第三步。在此基础上争取有组织比赛的能力
+5. 第五步实现商城（小店）功能
 
-However, relying on Google Sheets can be problematic:
 
-- API outages and changes unexpectedly break the TimelineJS service
-- you may not have a convenient location to host your media files or a website to embed your timelines
-- Google platform exposes your users to unnecessary privacy tradeoffs
-
-To avoid these issues you can [self-host your TimelineJS projects](https://timeline.knightlab.com/docs/instantiate-a-timeline.html) and use the standalone javascript to create timelines without relying on any 3rd party services.
-
-The `timelinejs-template` implements the basics of TimelineJS in a simple Jekyll project template to make self-hosting easy on [GitHub Pages](https://pages.github.com/).
-This approach is more sustainable, keeping the library assets, metadata, and media together in a self-contained package (rather than multiple 3rd party platforms).
