@@ -1,4 +1,4 @@
-# assets/lib
+# static/lib
 
 This directory contains libraries from external projects. 
 They are **not** under the same license as the template code, and have their individual licenses stated in comments in the files where appropriate. 
